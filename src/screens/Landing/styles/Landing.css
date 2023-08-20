@@ -1,0 +1,11 @@
+.landing-container h1 {
+    color: #212529;
+}
+
+.landing-container p {
+    color: #6C757D;
+}
+
+.landing-container .animate__animated {
+    animation-duration: 1s;
+}

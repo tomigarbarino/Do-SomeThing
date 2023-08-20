@@ -1,0 +1,23 @@
+.container-max-width {
+    max-width: 800px;
+}
+
+@media (max-width: 413px) {
+    .container-max-width {
+        margin-top: 170px !important ;
+    }
+}
+
+.modal-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.age-highlight {
+    display: inline-block;
+    background-color: #f39c12;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: white;
+}

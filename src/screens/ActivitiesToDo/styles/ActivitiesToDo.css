@@ -1,0 +1,12 @@
+.activities-container {
+    max-width: 800px;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}

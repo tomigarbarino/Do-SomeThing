@@ -1,0 +1,306 @@
+.background-circles {
+    position: fixed; /* Asegúrate de que los círculos cubran toda la pantalla */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Coloca los círculos detrás de todo el contenido */
+}
+
+
+@keyframes bounceX1 {
+
+    0%,
+    100% {
+        left: 0;
+    }
+
+    50% {
+        left: calc(100% - 200px);
+    }
+}
+
+@keyframes bounceY1 {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50% {
+        top: calc(100% - 200px);
+    }
+}
+
+@keyframes bounceX2 {
+
+    0%,
+    100% {
+        left: calc(100% - 150px);
+    }
+
+    50% {
+        left: 0;
+    }
+}
+
+@keyframes bounceY2 {
+
+    0%,
+    100% {
+        top: calc(100% - 150px);
+    }
+
+    50% {
+        top: 0;
+    }
+}
+
+@keyframes bounceX3 {
+
+    0%,
+    100% {
+        left: 50%;
+    }
+
+    50% {
+        left: calc(100% - 180px);
+    }
+}
+
+@keyframes bounceY3 {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50% {
+        top: 50%;
+    }
+}
+
+@keyframes bounceX4 {
+
+    0%,
+    100% {
+        left: 0;
+    }
+
+    50% {
+        left: 50%;
+    }
+}
+
+@keyframes bounceY4 {
+
+    0%,
+    100% {
+        top: calc(100% - 220px);
+    }
+
+    50% {
+        top: 0;
+    }
+}
+
+@keyframes bounceX5 {
+
+    0%,
+    100% {
+        left: calc(100% - 190px);
+    }
+
+    50% {
+        left: 0;
+    }
+}
+
+@keyframes bounceY5 {
+
+    0%,
+    100% {
+        top: 50%;
+    }
+
+    50% {
+        top: calc(100% - 160px);
+    }
+}
+
+@keyframes bounceX6 {
+
+    0%,
+    100% {
+        left: 50%;
+    }
+
+    50% {
+        left: calc(100% - 190px);
+    }
+}
+
+@keyframes bounceY6 {
+
+    0%,
+    100% {
+        top: calc(100% - 190px);
+    }
+
+    50% {
+        top: 50%;
+    }
+}
+
+@keyframes bounceX7 {
+
+    0%,
+    100% {
+        left: calc(100% - 170px);
+    }
+
+    50% {
+        left: 0;
+    }
+}
+
+@keyframes bounceY7 {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50% {
+        top: calc(100% - 170px);
+    }
+}
+
+@keyframes bounceX8 {
+
+    0%,
+    100% {
+        left: 0;
+    }
+
+    50% {
+        left: calc(100% - 210px);
+    }
+}
+
+@keyframes bounceY8 {
+
+    0%,
+    100% {
+        top: calc(100% - 210px);
+    }
+
+    50% {
+        top: 0;
+    }
+}
+
+@keyframes bounceX9 {
+
+    0%,
+    100% {
+        left: calc(100% - 190px);
+    }
+
+    50% {
+        left: 50%;
+    }
+}
+
+@keyframes bounceY9 {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50% {
+        top: 50%;
+    }
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6,
+.circle7,
+.circle8,
+.circle9 {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+    backdrop-filter: blur(30px);
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    background-color: #f39c12;
+    animation-name: bounceX1, bounceY1;
+}
+
+.circle2 {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    animation-name: bounceX2, bounceY2;
+}
+
+.circle3 {
+    width: 180px;
+    height: 180px;
+    background-color: #e74c3c;
+    animation-name: bounceX3, bounceY3;
+}
+
+.circle4 {
+    width: 220px;
+    height: 220px;
+    background-color: #2ecc71;
+    animation-name: bounceX4, bounceY4;
+}
+
+.circle5 {
+    width: 160px;
+    height: 160px;
+    background-color: #9b59b6;
+    animation-name: bounceX5, bounceY5;
+}
+
+.circle6 {
+    width: 190px;
+    height: 190px;
+    background-color: #34495e;
+    animation-name: bounceX6, bounceY6;
+}
+
+.circle7 {
+    width: 170px;
+    height: 170px;
+    background-color: #1abc9c;
+    animation-name: bounceX7, bounceY7;
+}
+
+.circle8 {
+    width: 210px;
+    height: 210px;
+    background-color: #f1c40f;
+    animation-name: bounceX8, bounceY8;
+}
+
+.circle9 {
+    width: 190px;
+    height: 190px;
+    background-color: #e67e22;
+    animation-name: bounceX9, bounceY9;
+}

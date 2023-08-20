@@ -1,0 +1,21 @@
+.login-card {
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .login-card {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    .login-card {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .login-card {
+        padding: 35px;
+    }
+}

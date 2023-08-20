@@ -1,0 +1,10 @@
+.navbar {
+    background-color: transparent;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        background-color: #ffffff !important;
+    }
+}
